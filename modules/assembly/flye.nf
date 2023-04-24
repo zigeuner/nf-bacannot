@@ -27,7 +27,7 @@ process FLYE {
     ${lr} \\
     $lreads \\
     --out-dir flye_${prefix} \\
-    --threads $task.cpus &> flye.log ;
+    --threads $task.cpus;
 
   # Save a copy for annotation
   cp flye_${prefix}/assembly.fasta flye_${prefix}.fasta
