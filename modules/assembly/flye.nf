@@ -26,6 +26,7 @@ process FLYE {
   flye \\
     ${lr} \\
     $lreads \\
+    --meta \\
     --out-dir flye_${prefix} \\
     --threads $task.cpus;
 
